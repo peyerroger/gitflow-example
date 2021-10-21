@@ -17,7 +17,7 @@ https://nvie.com/posts/a-successful-git-branching-model/
 - release/x.x.x: Branch for stabilizing release x.x.x
 - hotfix/x.x.x: Branch for hotfixes if we need to quickly fix something in production (Blocker issue)
 
-## Workflow:
+## Exercise:
 
 1. Check out the repository:
 
@@ -63,7 +63,7 @@ git pull
 8. (Optional) Resolve conflicts and then execute the following commands:
 ```shell
 git add *
-git merge --continue
+git commit -m "Fixed conflicts"
 ```
 
 9. Push your feature to the repository.
@@ -90,6 +90,11 @@ Select the target branch. In our case develop.
 14. Clean up your feature branch
 
 ![Clean up](./images/delete-branch.png)
+
+Once you've checked out a new branch, delete your old feature branch. (You cannot delete your current branch)
+```shell
+git branch -d feature/xyz
+```
 
 15. Fetch the latest changes locally.
 
