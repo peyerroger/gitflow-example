@@ -91,6 +91,11 @@ Select the target branch. In our case develop.
 
 ![Clean up](./images/delete-branch.png)
 
+Once you've checked out a new branch, delete your old feature branch. (You cannot delete your current branch)
+```shell
+git branch -d feature/xyz
+```
+
 15. Fetch the latest changes locally.
 
 ```shell
