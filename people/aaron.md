@@ -1,2 +1,2 @@
 Skills
-- none
+- can hold his breath for very long
