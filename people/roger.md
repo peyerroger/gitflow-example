@@ -1,2 +1,2 @@
 Skills
-- none
+- CONFLITS I like to make :)
