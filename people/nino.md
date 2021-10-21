@@ -1,2 +1,2 @@
 Skills
-- none
+- calculating
