@@ -1,2 +1,3 @@
 Skills
-- none
+- eating
+- talking too much :-D
