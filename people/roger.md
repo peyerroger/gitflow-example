@@ -1,2 +1,2 @@
 Skills
-- none
+- Knows a bit about Gitflow
