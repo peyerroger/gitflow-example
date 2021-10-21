@@ -17,7 +17,7 @@ https://nvie.com/posts/a-successful-git-branching-model/
 - release/x.x.x: Branch for stabilizing release x.x.x
 - hotfix/x.x.x: Branch for hotfixes if we need to quickly fix something in production (Blocker issue)
 
-## Workflow:
+## Exercise:
 
 1. Check out the repository:
 
