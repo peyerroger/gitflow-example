@@ -68,7 +68,7 @@ git merge --continue
 
 9. Push your feature to the repository.
 ```shell
-git push origin refs/heads/develop:feature/xyz
+git push origin refs/heads/feature/xyz:feature/xyz
 ```
 
 10. Create a Pull Request
@@ -78,6 +78,52 @@ git push origin refs/heads/develop:feature/xyz
 Select the target branch. In our case develop.
 
 ![Create PR 2](./images/create-PR-2.png)
+
+11. Review someone else's PR
+
+![Review PR](./images/review-PR.png)
+
+12. Integrate your PR
+
+![Merge PR](./images/merge-PR.png)
+
+14. Clean up your feature branch
+
+![Clean up](./images/delete-branch.png)
+
+15. Fetch the latest changes locally.
+
+```shell
+git fetch
+```
+
+16. (Roger only) Create a release branch
+
+```shell
+git checkout -b release/0.2.0 origin/develop
+```
+
+17. (Roger only) Fix the bug
+```shell
+git add *
+git commit -m "Fixing issue xyz"
+```
+
+18. Push the release branch
+
+```shell
+git push origin refs/heads/release/0.2.0:release/0.2.0
+```
+
+19. Bring back changes to develop by creating a PR release/0.2.0 -> develop.
+
+20. Create a PR release/0.2.0 -> master
+
+21. Tag the commit
+
+
+23. Deploy to production
+
 
 
 
