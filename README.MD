@@ -121,7 +121,6 @@ git push origin refs/heads/release/0.2.0:release/0.2.0
 
 21. Tag the commit
 
-
 23. Deploy to production
 
 
