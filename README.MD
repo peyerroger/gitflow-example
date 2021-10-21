@@ -63,7 +63,7 @@ git pull
 8. (Optional) Resolve conflicts and then execute the following commands:
 ```shell
 git add *
-git merge --continue
+git commit -m "Fixed conflicts"
 ```
 
 9. Push your feature to the repository.
